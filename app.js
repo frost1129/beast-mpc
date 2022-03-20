@@ -120,10 +120,14 @@ var toLogin = document.querySelector(".to-login");
 
 toCreate.addEventListener("click", function() {
     document.querySelector(".black-box").classList.add("to-create");
+    document.querySelector(".sign-in").classList.add("not-active");
+    document.querySelector(".sign-up").classList.remove("not-active");
 })
 
 toLogin.addEventListener("click", function() {
     document.querySelector(".black-box").classList.remove("to-create");
+    document.querySelector(".sign-up").classList.add("not-active");
+    document.querySelector(".sign-in").classList.remove("not-active");
 })
 
 
