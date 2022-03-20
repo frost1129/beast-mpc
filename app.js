@@ -28,7 +28,7 @@ signIn.addEventListener("click", function() {
         } else if (strcmp(usrPass.value, storedPass[pos]) != 0) {
             message("Password not match!");
         } else {
-            // to the main page
+            window.location.href="main.html";
         }
 
     }
