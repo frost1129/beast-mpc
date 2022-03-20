@@ -6,31 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beast ft MPC</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="main-box">
-        <h1>CONTEST ...</h1>
+        <div class="message">
+            
+        </div>
+
+        <h1>CONTEST MPC</h1>
 
         <div class="login-form">
             <div class="black-box"></div>
             <div class="form">
                 <span class="sign-up">
                     <h3>Sign Up</h3>
-                    <input type="text" placeholder="Username" class="crt-name">
-                    <input type="password" placeholder="Password" class="crt-pass">
-                    <input type="password" placeholder="Confirm Password" class="crt-pass-conf">
+
+                    <div class="input-field">
+                        <input type="text" class="crt-name" placeholder=" ">
+                        <label for="crt-name">Username</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="crt-pass" placeholder=" ">
+                        <label for="crt-pass">Password</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="crt-pass-conf" placeholder=" ">
+                        <label for="crt-pass-conf">Confirm Password</label>
+                    </div>
     
-                    <div class="btn btn-sign-up">Sign Up</div>
-                    <p><i>Already have an account?</i></p>
+                    <div class="btn btn-sign-up"">Sign Up</div>
+                    <p class="to-login"><i>Already have an account?</i></p>
                 </span>
     
-                <span class="sign-in">
+                <span class="sign-in not-active">
                     <h3>Sign In</h3>
-                    <input type="text" placeholder="Username" class="usr-name">
-                    <input type="password" placeholder="Password" class="usr-pass">
+                    
+                    <div class="input-field">
+                        <input type="text" class="usr-name" placeholder=" ">
+                        <label for="usr-name">Username</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="usr-pass" placeholder=" ">
+                        <label for="usr-pass">Password</label>
+                    </div>
     
-                    <div class="btn btn-sign-in">Sign In</div>
-                    <p><i>Create a new account?</i></p>
+                    <div class="btn btn-sign-in"">Sign In</div>
+                    <p class="to-create"><i>Create a new account?</i></p>
                 </span>
             </div>
 
